@@ -1,0 +1,31 @@
+Structural Design Pattern is a way to combine or arrange different classes and objects
+to form a complex or bigger structure to solve a particular requirements.
+
+Various Structural Design Patterns are :
+1.  Decorator Design Pattern : This pattern helps to add more functionality to existing object, without changing its structure
+                                We use decorator design pattern to avoid class explosion.
+                                Decorator design supports both (Is-a relationship) and (has-a relationship);
+                                Eg : Pizza, Coffee Machine...etc
+
+2.  Proxy Design Pattern     :  Whenever client request for some real object then passes through the proxy which is in between
+                                client and real object.
+                                For example : Proxy can taken as example in internet service
+                                1->User---->Proxy(Blocked List)----->Web(real object).
+                                2->While time of caching also it can be used like when user wants to access something from DB.
+                                   Then proxy will look in into Cache before proceeding with DB.
+
+3   Flyweight Design Pattern  : It's on og the structural Design pattern
+                                This pattern helps to reduce the memory usage by sharing data among multiple objects.
+                                Eg : Design Word Processor
+                                     Design Game.
+                                Q. When to use FlyWeight Design Pattern
+                                Ans. 1-> When memory is limited.
+                                     2-> When objects share data.
+                                            2.1-> Intrinsic data : Shared among objects and remain same once defined one value
+                                            2.2-> Extrinsic data : changes based on client input and differs from one object to another
+                                     3-> Creation of object is expensive.
+                                *   This is how it solves the issue :
+                                     1-> From object, remove all the Extrinsic data and keep Intrinsic data(this object called flyweight object)
+                                     2-> This Flyweight class can be immutable.
+                                     3-> Extrinsic data can be passed to the flyweight class in method parameter.
+                                     4-> Once the flyweight object is created, it is cached and reused whenever required.
