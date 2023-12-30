@@ -5,7 +5,6 @@ import java.util.List;
 
 public class MBAStudentBuilder extends StudentBuilder
 {
-    @Override
     public StudentBuilder setSubjects()
     {
         List<String> list = new ArrayList<>();

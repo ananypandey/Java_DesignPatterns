@@ -1,0 +1,18 @@
+Solid Principle
+
+1.  S : Single responsibility principal
+2.  O : Open and close principal
+3.  L : Leskov's substitution principal.
+4.  I : Interface segregation principal.
+5.  D : Dependency Inversion principal.
+
+
+--> The single responsibility principal states that every class must perform a single functionality. Implementation of multiple functionalities in a single class mashup the code.
+--> The open-closed principle states that according to new requirements the module should be open for extension but closed for modification.
+Basically if you want to add some feature to any service then you should not add into service. You should extend that given service and add a particular feature.
+--> Leskov's substitution principal : It applies to inheritance i such a way that the derived classes must be completely substitutable for their base classes. In other words if, if class A is subtype of class B, then we should be able to replace
+    B with A without interrupting the behaviour of the program.
+--> Interface Segregation Principle(ISP) states that the larger interfaces split inot smaller ones. Because the implementation classes use only the methods that are required. We should not
+    force the client to use the methods that they do not want to use.
+--> Dependency Inversion Principle states that we must use abstraction(abstract classes and interfaces) instead of concrete implementations. High level modules should not depend on the
+    abstraction.

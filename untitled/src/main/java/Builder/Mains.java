@@ -5,12 +5,7 @@ public class Mains
     public static void main(String[] args){
         EngineeringStudentBuilder engineeringStudentBuilder = new EngineeringStudentBuilder();
 
-        Student student = new StudentBuilder() {
-            @Override
-            public StudentBuilder setSubjects() {
-                return engineeringStudentBuilder;
-            }
-        }.setMotherName("Anany").build();
+        Student student = new StudentBuilder().setMotherName("Sandhya").build();
     System.out.println(student.toString());
     }
     //When you want to create object step by step;

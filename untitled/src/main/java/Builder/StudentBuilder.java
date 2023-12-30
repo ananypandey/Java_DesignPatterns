@@ -2,7 +2,7 @@ package Builder;
 
 import java.util.List;
 
-public abstract class StudentBuilder
+public class StudentBuilder
 {
     int rollNumber;
     int age;
@@ -36,7 +36,7 @@ public abstract class StudentBuilder
         this.motherName= name;
         return this;
     }
-    abstract public StudentBuilder setSubjects();
+//    abstract public StudentBuilder setSubjects();
     public Student build()
     {
         return new Student(this);

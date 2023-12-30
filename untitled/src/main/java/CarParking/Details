@@ -1,0 +1,6 @@
+--> Interactive Mode : In interactive mode, a program interacts directly with the user, often by prompting for input and receiving responses in real-time.
+                        User input is typically read from the standard input (e.g., keyboard) during the execution of the program.
+                        This mode is common for command-line applications or programs with a text-based user interface.
+--> File Input Mode : In file input mode, a program reads input from a file rather than directly from the user. The program is designed to process the contents of a specified file,
+                        and it doesn't actively prompt the user for input during execution. File input is useful for automating tasks, processing large datasets,
+                        or integrating a program into a larger system.
